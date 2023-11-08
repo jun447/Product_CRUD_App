@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h1 class="heading">Product CRUD App</h1>
+
+    <div class="form-container">
+        <h2>Add a New Product</h2>
+        <input type="text" id="newName" class="input-field" placeholder="Product Name">
+        <input type="number" id="newPrice" class="input-field" placeholder="Product Price">
+        <input type="text" id="newColor" class="input-field" placeholder="Product Color">
+        <input type="text" id="newDepartment" class="input-field" placeholder="Product Department">
+        <input type="text" id="newDescription" class="input-field" placeholder="Product Description">
+        <button id="addProduct" class="button">Add Product</button>
+    </div>
+
+    <div class="product-list">
+        <h2>Products</h2>
+        <ul id="productList"></ul>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
